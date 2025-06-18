@@ -73,6 +73,4 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 
-rl.question("Paste LinkedIn Post URL: ", (postUrl) => {
-  scrapeLinkedIn(postUrl).then(() => rl.close());
-});
+export default scrapeLinkedIn;
