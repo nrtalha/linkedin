@@ -1,0 +1,13 @@
+{
+  "name": "linkedin-leads-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "puppeteer-core": "^21.3.8",
+    "google-spreadsheet": "^3.3.0"
+  }
+}
+
+
+
